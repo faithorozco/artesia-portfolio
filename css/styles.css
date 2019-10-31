@@ -1,0 +1,112 @@
+/* GLOBAL */
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+body{
+    background-color:#FF7F27;
+}
+/* HERO */
+.hero{
+	height: 500px;
+	width: 100%;
+	background-color: #FF7F27;
+	background-image:	url(
+    '../img/bandcamp\ logo.png');
+	position: absolute;
+	top:-35px;
+	background-repeat: repeat-x;
+	background-position: 
+		0 20%,
+		0 100%,
+		0 50%,
+		0 100%,
+		0 0;
+	animation: 50s butt infinite linear;
+	}
+
+@keyframes butt {
+	100% {
+		background-position: 
+			-5000px 20%,
+			-800px 95%,
+			500px 50%,
+			1000px 100%,
+			400px 0;
+		}
+	}
+/* NAV */
+#syd{
+	height:50px;
+	width: 70px;
+	margin-top: -15px;
+}
+.navbar{
+	background-color:black;
+	border-color: transparent;
+	width: 100%;
+	
+}
+li{
+	
+	font-size: x-large;
+	color: black;
+	font-family: 'Alfa Slab One', cursive;
+}
+/* NEWS */
+.news{
+	position: absolute;
+	top:250px;
+	font-family: 'Alfa Slab One', cursive;
+	font-size:800px;
+	text-shadow: gray 2px 2px 2px;
+	
+	
+}
+h1{
+	font-size: 50px;
+}
+.jumbotron{
+	background-color:#FF7F27;
+}
+.betteroff, iframe{
+	height: 600px;
+	width: 600px;
+	padding:30px;
+}
+
+/* SHOWS */
+.shows{
+	position: absolute;
+	top:1200px;
+	font-family: 'Alfa Slab One', cursive;
+	text-shadow: gray 2px 2px 2px;
+}
+.show1,.show2,.show3{
+	height: 500px;
+	width: 500px;
+}
+/* INSTA */
+.insta{
+	margin-top:2800px;
+}
+
+/* FOOTER */
+.footer{
+	background-color: black;
+	color: white;
+	height: 50px;
+	width: 100%;
+	display:flex;
+	align-content: flex-end;
+	font-family: 'Alfa Slab One', cursive;
+}
+.social{
+	color:white;
+	list-style: none;
+	padding:15px;
+
+
+}
+.list{
+	display: flex;
+	justify-content: flex-end;
+	
+}

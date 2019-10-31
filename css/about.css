@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+.story{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+}
+
+.us{
+    height: 500px;
+    width: 500px;
+}
+.container{
+    margin-top:100px;
+}
+h1{
+    font-family: 'Gayathri', sans-serif;
+}
+.our{
+    font-family: 'Alfa Slab One', cursive;
+}

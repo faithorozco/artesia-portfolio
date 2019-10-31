@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+body{
+    background-color: black;
+}
+.faithjonas{
+    height: 400px;
+    width: 500px;
+    animation-name:nickj;
+    animation-duration:3s;
+}
+@keyframes nickj {
+    from { transform: scaleX(0); }
+    to   { transform: scaleX(1); }
+  }
+.welcome{
+    font-size: 100px;
+    color: blueviolet;
+    font-family: 'Anton', sans-serif;
+}
+p{
+    font-size: large;
+    font-family: 'Anton', sans-serif;
+}
+.screenshotartesia{
+    height: 300px;
+    width: 700px;
+}
+.btn{
+    position: absolute;
+    bottom:-350px;
+    right:200px;
+}
+.container{
+    margin-top: 100px;
+}
+.header{
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+}
+.resturante{
+    
+}
